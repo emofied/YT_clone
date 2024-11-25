@@ -1,0 +1,275 @@
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    background-color:white;
+    border-bottom-width: 1px ;
+    border-bottom-color: rgb(214, 207, 207);
+    border-bottom-style: solid;
+    z-index: 100;
+}
+.left{
+    display: flex;
+    margin-right: 70px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+.menu { 
+    height: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+    }
+.logo{
+    height: 44px;
+    margin-top: 6px;
+}
+
+.middle{
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.ss{
+    font-family:roboto;
+    font-size: 20px;
+    border-radius:28px;
+    height:33px;
+    border-color:rgb(214, 207, 207);
+    border-style: solid;
+    border-width: 2 px;
+    padding-left: 16px;
+    flex:1;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0 ,0.05);
+    width: 150px;
+    
+}
+
+.search_button{
+    margin-left: 8px;
+    background-color: rgb(214, 207, 207);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 0px;
+    border-color: rgb(214, 207, 207);
+    margin-left:-40px;
+    border-style: solid;
+    position: relative;
+}
+.search_button .tooltip{
+    position: absolute;
+    bottom: -34px;
+    left:-8px;
+    font-family: roboto;
+    color: white;
+    font-size: 14px;
+    background-color: grey;
+    border-radius: 2px;
+    padding: 4px 8px 4px 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.24s;
+}
+
+.search_button:hover .tooltip{
+    opacity: 1;
+}
+
+.search_icon{
+    height:26px;
+}
+
+.voice_button{
+    margin-left: 14px;
+    border:none;
+    background-color: white;
+    position: relative;
+}
+
+.voice_button .tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    width: 80px;
+    padding: 4px 8px  4px 8px;
+    font-size: 14px;
+    border-radius: 2px;
+    bottom: -26px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.24s;
+}
+
+.voice_button:hover .tooltip{
+    opacity: 1;
+}
+
+.up{
+    position: relative;
+}
+
+.up .tooltip{
+    position: absolute;
+    bottom: -34px;
+    left:24px;
+    font-family: roboto;
+    color: white;
+    font-size: 14px;
+    background-color: grey;
+    border-radius: 2px;
+    padding: 4px 8px 4px 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.24s; 
+
+}
+
+.up:hover .tooltip{
+    opacity: 1;
+}
+
+.livetv{
+    position: relative;
+}
+
+.livetv .tooltip{
+    position: absolute;
+    width: 38px;
+    background-color: gray;
+    border-radius: 2px;
+    color: white;
+    font-family: roboto;
+    padding: 4px 6px 4px 8px ;
+    bottom: -32px;
+    left:-10px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.24s;
+    pointer-events: none;
+
+}
+
+.livetv:hover .tooltip{
+    opacity: 1;
+}
+
+.notif{
+    position: relative;
+}
+
+.notif .tooltip{
+    position: absolute;
+    font-family: roboto;
+    color: white;
+    background-color: gray;
+    border-radius: 2px;
+    padding: 4px 6px 4px 6px;
+    font-size: 14px;
+    bottom: -28px;
+    left:-26px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.24s;
+}
+
+.notif:hover .tooltip{
+    opacity: 1;
+}
+
+.voice{
+    height:32px;
+    border: solid;
+    border-color: rgb(214, 207, 207);
+    border-radius:26px;
+    background-color:rgb(214, 207, 207);
+    margin-top: 2px;
+
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    margin-right: 18px;
+    width:360px;
+    margin-left: 28px;
+    flex-shrink: 0;
+}
+
+.upload , .live{
+    height: 24px;
+}
+.notification{
+    margin-top: 8px;
+    height:24px;
+}
+.jj{
+    position: relative;
+}
+.jjk{
+    position: absolute;
+    top:4px;
+    right: -10px;
+    background-color: rgb(201, 0, 0);
+    color: white;
+    font-family: roboto;
+    font-size: 12px;
+    padding: 2px 6px 2px 6px;
+    border-radius: 15px;
+}
+.sign_in{
+    height: 31px;
+    margin-top: 2.2px;
+}
+
+.sign{
+    position: relative;
+}
+
+.sign .tooltip{
+    font-family: roboto;
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+    padding: 4px 6px 4px 6px;
+    border-radius: 2px;
+    bottom:-26px;
+    position: absolute;
+    width:45px;
+    left:-16px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.24s;
+}
+
+.sign:hover .tooltip{
+    opacity: 1;
+}
+
+body{
+    height:1800px;
+    margin-top: 0;
+    padding-top: 82px;
+    padding-left: 110px;
+    background-color: whitesmoke;
+}
+.menu:hover , .logo:hover , .search_button:hover ,
+ .voice_button:hover , .upload:hover , .live:hover,
+ .notification:hover , .sign_in:hover
+{
+    cursor: pointer ;
+}
+.upload{
+    margin-left: 38px;
+}
